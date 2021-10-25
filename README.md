@@ -1,10 +1,10 @@
 # Med Phys Scripts
-These are scripts that I, the medical physics assistant at Cookeville Regional Medical Center, wrote for use in our radiation therapy treatment planning system. Please note that the scripts are a *work in progress*. Most of them work, but there are a few bugs. You will need to make some changes to filepaths, etc. All scripts have been used with RayStation v8B only. 
+These are scripts that I, the medical physics assistant at Cookeville Regional Medical Center, wrote for use in our radiation therapy treatment planning system. Please note that the scripts are **__works in progress__**. Most of them work, but there are a few bugs. You will need to make some changes to filepaths, etc. All scripts have been used with RayStation v8B only. 
 
 ## Usage
 Create a new script in RayStation that calls the "main" function in the script you want to use. For example, create `AddClinicalGoals.py`:
 ```python
-from AddClinicalGoalsForm.py import add_clinical goals
+from AddClinicalGoalsForm import add_clinical goals
 add_clinical_goals()
 ```
 
